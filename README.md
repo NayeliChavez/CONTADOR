@@ -22,6 +22,7 @@ Para poder ejecutar el proyecto Contador.java desde la terminal, se deberá desc
 
 # EJEMPLO
 El siguiente texto muestra los resultados obtenidos, al compilar y ejecutar el proyecto Contador.java
+
 ===== Total de palabras =====
 82
 
