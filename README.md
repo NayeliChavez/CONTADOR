@@ -1,15 +1,25 @@
 # DESCRIPCIÓN DEL PROYECTO
-El proyecto realizado es un contador de palabras, recibe como entrada el nombre de un archivo con extensión .txt.
-Como salida el proyecto muestra:
+El proyecto realizado es un contador de palabras, recibe como entrada el nombre de un archivo con extensión .txt, este archivo contiene un texto, que será utilizado para realizar el conteo y el número de repeticiones de cada palabra.
+Como salida el proyecto deberá mostrar:
+
 1. El total de palabras encontradas dentro del texto.
 2. El total de palabras, sin contar las palabras contenidas dentro del archivo StopWords.
 3. Las diez palabras mas repetidas dentro del texto.
+4. Dentro de la carpeta del proyecto Contador, se creará el archivo resumen.txt con los datos descritos anteriormente.
 
 #TECNOLOGÍAS EMPLEADAS
-Para la realización de este proyecto se utilizó el lenguaje de programación de Java, además del entorno gráfico de Eclipse.
+Para la realización de este proyecto se utilizó el lenguaje de programación Java, además del entorno gráfico de Eclipse.
+Dentro del lenguaje de programación se utilizaron algunas herramientas como:
+
+1. HashMap
+2. Listas
+3. Arreglos
+4. BufferedReader
+5. BufferedWriter
+6. Scanner
 
 # FORMA DE EJECUTAR EL PROYECTO
-Para poder ejecutar el proyecto Contador.java desde la terminal, se deberá descargar el archivo Contador.java, entrar a la terminal: java Contador "El nombre del archivo que contenga las palabras a contar"
+Para poder ejecutar el proyecto Contador.java desde la terminal, se deberá descargar el archivo Contador.java, entrar a la terminal y ejecutar lo siguiente: java Contador "El nombre del archivo que contenga las palabras a contar".
 
 # EJEMPLO
 El siguiente texto muestra los resultados obtenidos, al compilar y ejecutar el proyecto Contador.java
